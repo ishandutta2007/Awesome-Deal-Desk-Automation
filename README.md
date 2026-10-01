@@ -1,243 +1,114 @@
-# Awesome-Deal-Desk-Automation
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Deal Desk Automation Banner" width="100%">
+</p>
 
-## Top Deal Desk Automation Platforms Ecosystem
+# 💼 Awesome Deal Desk Automation ⚡
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+## 🚀 Top Deal Desk Automation Platforms Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Quote-to-Cash Automation, CPQ, Deal Collaboration, Contract Lifecycle Management & Subscription Billing* 
 
-*Focused on Quote-to-Cash Automation, CPQ, Deal Collaboration & Subscription Billing*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Deal Desk Automation**. These tools help revenue teams automate quoting, pricing, approvals, document generation, e-signature, and the handoff from deal to billing—reducing manual work and accelerating deal velocity.
-
-
-
-**Examples** include DealHub, Ignition, QuoteWerks, Conga, Salesforce Revenue Cloud, Subskribe, Logik.io, Quoter, and Expedite Commerce (the category leaders).
-
-
-
-**Open-source emphasis**: Deal Desk Automation is a **commercially dominated category**—DealHub, Conga, and Salesforce Revenue Cloud lead the market. However, the **open-source foundation is mature and composable**. **Odoo** provides a comprehensive open-source ERP with native CPQ, CRM, Sales, and eCommerce modules that can be extended for deal desk workflows . **Kill Bill** is the leading open-source subscription billing and payments platform, powering large SaaS and e-commerce organizations with real-time analytics and no vendor lock-in . **Bagisto B2B Ecommerce** delivers open-source B2B features including Request for Quote (RFQ), quotation handling, and company credit—directly relevant to deal desk automation . **DocuSeal** provides self-hosted document signing and form automation for contracts and agreements . **Lago** offers open-source metering and usage-based billing for complex pricing models .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[DealHub](https://dealhub.io/)**
-
-  Agentic quote-to-revenue platform spanning CPQ, proposals, subscriptions, billing, and deal collaboration. **DealRoom** brings buyers and sellers into one shared space for quoting, contracts, and eSign. Blueshift achieved **500% faster deal approvals** and **80% fewer sales inquiries to operations** after adopting DealHub .
-
-
-
-- **[Conga CPQ](https://conga.com/)**
-
-  Enterprise CPQ built for complex quoting, pricing, and subscription lifecycles. Pairs intricate product configuration with **document automation** for clean quote-to-contract handoff. Suited for enterprise teams managing renewals and non-standard terms .
-
-
-
-- **[Salesforce Revenue Cloud](https://www.salesforce.com/)**
-
-  CPQ and billing suite for Salesforce-native organizations. Provides guided selling, pricing rules, approval workflows, and revenue recognition integrated with the Salesforce platform.
-
-
-
-- **[Ignition](https://ignitionapp.com/)**
-
-  Automates proposals, billing, payment collection, and client workflows. Popular with professional services firms for turning signed proposals into automated billing and revenue workflows .
-
-
-
-- **[QuoteWerks](https://www.quotewerks.com/)**
-
-  CPQ and quote management for SMBs. Provides product configuration, pricing, quote generation, and document automation with integrations to CRMs and accounting systems.
-
-
-
-- **[Subskribe](https://www.subskribe.com/)**
-
-  Adaptive CPQ and billing platform for SaaS. Handles subscription management, usage-based pricing, and revenue recognition.
-
-
-
-- **[Logik.io](https://www.logik.io/)**
-
-  Headless, composable, API-first CPQ and product configuration engine. Powers guided configuration, pricing, and quoting across Salesforce CPQ/Commerce and headless frontends.
-
-
-
-- **[Quoter](https://quoter.com/)**
-
-  CPQ and quoting for SMBs and MSPs. Provides quote generation, pricing, and approval workflows with a focus on simplicity.
-
-
-
-- **[Expedite Commerce](https://www.expeditecommerce.com/)**
-
-  CPQ and eCommerce platform for B2B manufacturers and distributors. Handles complex product configuration, pricing, and quote-to-order workflows.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### ERP & CPQ Foundations
-
-
-
-- **[Odoo](https://github.com/odoo/odoo)**
-
-  **The most comprehensive open-source ERP platform and the strongest foundation for deal desk automation.** **Open-source** (Community edition LGPLv3, Enterprise commercial). **Native CPQ capabilities** through modular apps: CRM, Sales, Product Configurator, eCommerce, Inventory, Accounting, and Manufacturing . Aktiv Software built their CPQ solution on Odoo because it provides "a proven, open-source ecosystem that's modular, extensible, and fully customizable" . **Key advantage**: Integrates natively with Accounting, CRM, Inventory, eCommerce, and Manufacturing—enabling true quote-to-cash in a single system . **Free Version** available; **Cloud and On-Premise** deployment .
-
-
-
-- **[Kontor](https://github.com/Kontor-ProcessWire/Kontor)**
-
-  **Modular open-source ERP, CRM, and business operations platform for ProcessWire.** **MIT licensed**. **35 components** sharing one audited core and permission-aware admin workspace . **Deal desk relevant modules**: **CRM** (leads, pipelines, stages, deals, Kanban); **Catalog** (products/services, price lists); **Sales** (quotations, orders, status workflows); **Invoices** (quotation-to-order-to-invoice conversion); **Workflow** (state-machine engine with approvals); **Documents** (versioned templates, PDF rendering, immutable issued-document snapshots); **Portal** (customer self-service for quotations, invoices, payments) . **Best for**: Organizations wanting a composable, self-hosted business platform with deal-to-cash workflows.
-
-
-
-### B2B Quote & RFQ Platforms
-
-
-
-- **[Bagisto B2B Ecommerce](https://github.com/bagisto/b2b-ecommerce)**
-
-  **Open-source B2B eCommerce package extending Bagisto with powerful B2B features.** **MIT licensed** . **Deal desk relevant features**: **Company Registration & Approval**; **Role-Based Permissions**; **Request for Quote (RFQ)** from cart; **Quotation Handling** with end-to-end buyer-seller negotiation and messaging; **Purchase Orders**; **Company Catalogs** with per-company pricing (flat, percentage, quantity-tier); **Company Credit** with audited ledger and Pay By Credit checkout . **Built for**: Wholesalers, manufacturers, distributors needing flexible B2B quote-to-order workflows.
-
-
-
-- **[Spree Commerce B2B](https://github.com/spree/spree)**
-
-  **Open-source eCommerce platform with B2B wholesale portal capabilities.** **Spree 5.6** supports **wholesale portals** with spreadsheet-style ordering grids, customer-specific pricing, and pre-orders . **Enterprise Edition B2B module** adds buyer organizations, spending limits, and role-based purchasing . **Open source**, **Docker-image-first deployment** with 40% smaller image and 2-3x faster app creation . **Best for**: B2B commerce portals with quote and order workflows.
-
-
-
-- **[Virto Commerce](https://github.com/VirtoCommerce/vc-platform)**
-
-  **Open-source B2B eCommerce platform with native quotes module.** **Quoter** enables business users to execute quote requests online, with internal pricing negotiation (quantity breaks, discounts) and customer acceptance/rejection . **Modular architecture** with catalog, pricing, order, customer, and marketing modules .
-
-
-
-### Subscription Billing & Metering
-
-
-
-- **[Kill Bill](https://github.com/killbill/killbill)**
-
-  **The leading open-source subscription billing and payments platform for over 10 years.** **Apache 2.0 licensed** . **Out-of-the-box**: subscription management, invoicing, payment processing, real-time analytics, and financial reports. **No vendor lock-in**—you control your business and client data . **Highly modularized**—disable functionality you don't need or replace with existing systems . **On-premises or cloud**, scales with your subscription business . **Best for**: SaaS and e-commerce organizations needing robust subscription billing.
-
-
-
-- **[Lago](https://github.com/getlago/lago)**
-
-  **Open-source metering and usage-based billing platform.** **Open-source** (self-hosted) and **Lago Cloud** (SaaS) . **Five-step billing workflow**: Usage Ingestion (event-based, duplicate prevention); Metrics Aggregation (COUNT, COUNT_UNIQUE, LATEST, MAX, SUM, WEIGHTED SUM); Pricing & Packaging (subscription, usage-based, or hybrid); Invoicing (automated generation with fees and taxes); Payments (native integrations or any PSP via invoice payload) . **Best for**: Complex usage-based and hybrid pricing models.
-
-
-
-- **[UniBee](https://github.com/UniBee-Billing/unibee)**
-
-  **Open-source universal billing software for SaaS businesses.** **AGPLv3 licensed** . **Features**: Subscription management, invoicing, billable metrics, product/plan management, webhooks, user management, reports, transaction management, discounts, and user portal . **Docker Compose deployment** . **Best for**: SaaS businesses wanting an affordable, self-hosted billing alternative to Recurly, Chargebee, and Paddle .
-
-
-
-### Document Automation & eSignature
-
-
-
-- **[DocuSeal](https://github.com/docusealco/docuseal)**
-
-  **Open-source document signing and form automation platform.** **AGPL licensed** (with SaaS version available) . **Features**: Visual PDF field editor; 10 field types in free version (checkbox, image, date, multiple choice); **multiple signers with sequential order**; invitations via your own SMTP; signed documents stored on your disk, S3, Google Storage, or Azure; **REST API and webhooks** . **eIDAS-compliant simple electronic signature** (valid for quotes and internal agreements; qualified signature available via partner) . **Docker deployment**: `docker run --name docuseal -p 3000:3000 -v.:/data docuseal/docuseal` . **Best for**: Self-hosted contract and agreement signing.
-
-
-
-### Product Configuration Engines
-
-
-
-- **[openCPQ](https://github.com/webXcerpt/openCPQ)**
-
-  **Browser-based product configuration framework.** **MIT licensed** . React-based, data-driven product modeling with reusable knowledge and ecosystems. **Use cases**: Complex product configuration, bill of materials, pricing . **Best for**: Building custom product configurators with code.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **ERP/CPQ Foundations**: **Odoo** (native CPQ, quote-to-cash integration) , **Kontor** (35 components, workflow, portal) .
-
-- **B2B Quote/RFQ**: **Bagisto B2B** (RFQ, quotation negotiation, company credit) , **Spree Commerce B2B** (wholesale portal) , **Virto Commerce** (Quoter module) .
-
-- **Billing**: **Kill Bill** (Apache 2.0, subscription billing) , **Lago** (usage-based metering) , **UniBee** (AGPLv3, SaaS billing) .
-
-- **eSignature**: **DocuSeal** (AGPL, self-hosted) .
-
-- **Configuration**: **openCPQ** (MIT, browser-based configurator) .
-
-
-
-**Frameworks for building custom systems**: Combine **Odoo** as the core ERP/CPQ foundation with native CRM, Sales, and Accounting, **Bagisto B2B** or **Spree B2B** for RFQ and quotation negotiation workflows, **Kill Bill** or **Lago** for subscription and usage-based billing, **DocuSeal** for self-hosted eSignature, and **openCPQ** for custom product configuration. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Deal desk automation platforms handle sensitive pricing, contract, and customer data; ensure proper access controls and compliance with data protection regulations.
-
-- **Open-source reality**: The open-source ecosystem for deal desk automation is **mature at the component level** but **requires assembly** for full quote-to-cash. **Odoo** provides the most comprehensive foundation with native CPQ, CRM, Sales, and Accounting . **Bagisto B2B** delivers production-grade RFQ and quotation workflows . **Kill Bill** and **Lago** handle subscription and usage-based billing at scale . **DocuSeal** provides self-hosted eSignature . However, **commercial platforms** (DealHub, Conga, Salesforce Revenue Cloud) offer **integrated deal collaboration, AI-powered guided selling, and enterprise-grade approval workflows** that open-source alternatives require significant integration to match. The open-source path is **genuinely viable** for organizations with strong engineering capacity seeking full data ownership and zero license fees.
-
-
+**Last updated: October 2026** 📅
 
 ---
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Deal Desk Automation**. These tools help revenue operations (RevOps), sales operations, finance, and engineering teams automate quoting, product configuration (CPQ), pricing approvals, document generation, e-signature, contract management, and the automated handoff from deal closure to revenue recognition and subscription billing—reducing manual work and accelerating deal velocity ⚡.
 
+### 📊 Sector Market Overview
+> 💡 **Market Size & Structure**: The global Deal Desk Automation, CPQ (Configure, Price, Quote), and Billing Automation market is estimated at **~$3.8 Billion to $5.2 Billion** (2026), expanding at a CAGR of ~14.5%. The commercial SaaS sector is **moderately fragmented to concentrated**, dominated by enterprise revenue platforms (Salesforce Revenue Cloud, Conga, DealHub), while the SMB and open-source foundation remains highly composable and extensible.
 
-**Made for revenue operations teams, sales engineers, finance leaders, and full-stack developers.**
+---
 
-Let's make deal desk automation more open, transparent, and efficient.
+## 📑 Table of Contents
+
+- [🏢 Commercial SaaS / Hosted Platforms](#-commercial-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 Commercial SaaS / Hosted Platforms
+
+Below is a curated comparison of leading enterprise and SMB Deal Desk SaaS platforms, sorted by estimated company scale (annual revenue/valuation) descending 📉:
+
+| Platform 🛠️ | Description 📝 | Company Scale (Revenue / Valuation) 💰 | Starting Tier Price 💲 | Free Tier / Free Trial Limits 🎁 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Revenue Cloud](https://www.salesforce.com/)** 🌩️ | Enterprise CPQ and billing suite providing guided selling, complex pricing rules, approval workflows, and revenue recognition natively inside Salesforce. | **~$34.9 Billion Revenue** | **$75** / user / month (Salesforce CPQ Starter) | **30-day free trial** with pre-configured sample sales & CPQ data. |
+| **[Conga CPQ](https://conga.com/)** 📄 | Enterprise CPQ for complex quoting, pricing, and subscription lifecycles. Pairs product configuration with contract document automation. | **~$300 Million Revenue** | **$35** / user / month (Conga Composer / CPQ base) | **14-day free trial** with access to document automation and quote templates. |
+| **[DealHub](https://dealhub.io/)** 🤝 | Agentic quote-to-revenue platform spanning CPQ, proposals, subscriptions, and DealRoom buyer-seller collaboration. | **~$30 Million Revenue** ($100M+ Valuation) | **$50** / user / month | **14-day free trial** available upon request via demo portal. |
+| **[Ignition](https://ignitionapp.com/)** 📝 | Automates proposals, billing, payment collection, and client engagement for professional services and accounting teams. | **~$25 Million Revenue** ($120M+ Valuation) | **$49** / month (Core Plan, billed annually) | **14-day free trial** with unlimited proposal creation during trial. |
+| **[QuoteWerks](https://www.quotewerks.com/)** 📦 | Turnkey CPQ and quote management for SMBs and MSPs. Features product configuration, pricing rules, and CRM integrations. | **~$15 Million Revenue** | **$15** / user / month (Standard Edition) | **30-day free trial** with full functionality for up to 5 users. |
+| **[Logik.io](https://www.logik.io/)** ⚙️ | Headless, composable, API-first CPQ and product configuration engine powering rules across Salesforce and custom frontends. | **~$10 Million Revenue** ($80M Valuation) | **$2,000** / month (Base Enterprise Platform API) | **30-day sandbox developer trial** with full API access. |
+| **[Quoter](https://quoter.com/)** ⏱️ | Cloud CPQ software built for SMBs, VARs, and MSPs to automate proposal creation, pricing approvals, and CRM sync. | **~$8 Million Revenue** | **$199** / month (Basic Plan, includes up to 5 users) | **14-day free trial** with full template and integration access. |
+| **[Subskribe](https://www.subskribe.com/)** 💳 | Adaptive SaaS CPQ and billing platform engineered for complex subscription management, tiering, and usage pricing. | **~$5 Million Revenue** ($30M Valuation) | **$1,500** / month (Platform Base Tier) | **14-day guided test drive** with custom billing scenario simulation. |
+| **[Expedite Commerce](https://www.expeditecommerce.com/)** 🏭 | CPQ and eCommerce engine built for B2B manufacturers and distributors with complex bill-of-materials and custom quotes. | **~$4 Million Revenue** | **$50** / user / month | **14-day demo environment trial** upon request. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source deal desk ecosystem provides modular foundations across ERP/CPQ, B2B quotation portals, subscription billing engines, and eSignature automation. Sorted by **GitHub Stars** (descending) 🌟:
+
+| Open-Source Project 🛠️ | Category 🏷️ | Star Count 🌟 | License 📜 | Description 📝 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[n8n](https://github.com/n8n-io/n8n)** ⚡ | Workflow Automation | [<img src="https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white" alt="n8n stars"/>](https://github.com/n8n-io/n8n/stargazers) | Sustainable Use License | Fair-code workflow automation tool to orchestrate custom deal desk approval flows, CRM webhooks, and billing triggers. |
+| **[Odoo](https://github.com/odoo/odoo)** 🏢 | ERP & Native CPQ | [<img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo stars"/>](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 / Commercial | The most comprehensive open-source ERP platform and foundation for deal desk automation, featuring native CPQ, CRM, and Sales modules. |
+| **[ERPNext](https://github.com/frappe/erpnext)** 📊 | ERP & CPQ Foundation | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext stars"/>](https://github.com/frappe/erpnext/stargazers) | GPL-3.0 | Complete open-source ERP with native Quotation, Sales Order, Pricing Rules, Customer Portal, and Invoicing modules. |
+| **[Bagisto](https://github.com/bagisto/bagisto)** 🛒 | B2B Commerce & RFQ | [<img src="https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white" alt="Bagisto stars"/>](https://github.com/bagisto/bagisto/stargazers) | MIT | Open-source Laravel B2B eCommerce framework supporting per-company custom pricing, quotes, and B2B ordering. |
+| **[Activepieces](https://github.com/activepieces/activepieces)** 🔗 | RevOps Automation | [<img src="https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white" alt="Activepieces stars"/>](https://github.com/activepieces/activepieces/stargazers) | MIT | Open-source no-code business automation tool for linking CRM quote events with eSign and billing notifications. |
+| **[DocuSeal](https://github.com/docusealco/docuseal)** ✍️ | Document eSignature | [<img src="https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white" alt="DocuSeal stars"/>](https://github.com/docusealco/docuseal/stargazers) | AGPL-3.0 | Self-hosted document signing and form automation platform for contract execution and quote approvals. |
+| **[Spree Commerce](https://github.com/spree/spree)** 🛍️ | B2B Portal & Quotes | [<img src="https://img.shields.io/github/stars/spree/spree?style=social&color=white" alt="Spree stars"/>](https://github.com/spree/spree/stargazers) | BSD-3-Clause | Open-source B2B wholesale platform featuring customer-specific pricing, RFQ quote workflows, and catalog permissions. |
+| **[Documenso](https://github.com/documenso/documenso)** 📄 | Digital Signing | [<img src="https://img.shields.io/github/stars/documenso/documenso?style=social&color=white" alt="Documenso stars"/>](https://github.com/docusealco/docuseal/stargazers) | AGPL-3.0 | Open-source document signing platform alternative designed to embed signing workflows into custom sales applications. |
+| **[Lago](https://github.com/getlago/lago)** 💳 | Usage Billing & Metering | [<img src="https://img.shields.io/github/stars/getlago/lago?style=social&color=white" alt="Lago stars"/>](https://github.com/getlago/lago/stargazers) | AGPL-3.0 | Open-source metering and usage-based billing platform designed for complex hybrid subscription and usage pricing. |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** 🧾 | Invoicing & Quotes | [<img src="https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white" alt="Invoice Ninja stars"/>](https://github.com/invoiceninja/invoiceninja/stargazers) | AGPL-3.0 | Self-hosted quote creation, client approval portal, invoicing, and recurring payment engine. |
+| **[Crater](https://github.com/crater-invoice/crater)** 🖋️ | Quote & Invoice App | [<img src="https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white" alt="Crater stars"/>](https://github.com/crater-invoice/crater/stargazers) | AGPL-3.0 | Open-source web & mobile invoicing platform designed for trackable quotes, estimates, and payment collection. |
+| **[Kill Bill](https://github.com/killbill/killbill)** 🏦 | Subscription Billing | [<img src="https://img.shields.io/github/stars/killbill/killbill?style=social&color=white" alt="Kill Bill stars"/>](https://github.com/killbill/killbill/stargazers) | Apache-2.0 | Open-source enterprise subscription billing and payments engine powering multi-tier SaaS billing with zero vendor lock-in. |
+| **[Virto Commerce](https://github.com/VirtoCommerce/vc-platform)** 🏢 | B2B Quoting Engine | [<img src="https://img.shields.io/github/stars/VirtoCommerce/vc-platform?style=social&color=white" alt="Virto Commerce stars"/>](https://github.com/VirtoCommerce/vc-platform/stargazers) | Open Software License 3.0 | Enterprise B2B eCommerce platform with modular Quoter engine for price negotiations and discounts. |
+| **[UniBee](https://github.com/UniBee-Billing/unibee)** 🐝 | SaaS Billing | [<img src="https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white" alt="UniBee stars"/>](https://github.com/UniBee-Billing/unibee/stargazers) | AGPL-3.0 | Universal open-source billing system supporting subscriptions, billable metrics, and user management. |
+| **[openCPQ](https://github.com/webXcerpt/openCPQ)** ⚙️ | Product Configurator | [<img src="https://img.shields.io/github/stars/webXcerpt/openCPQ?style=social&color=white" alt="openCPQ stars"/>](https://github.com/webXcerpt/openCPQ/stargazers) | MIT | Lightweight browser-based JavaScript framework for building custom product configurators and knowledge bases. |
+| **[Bagisto B2B Module](https://github.com/bagisto/b2b-ecommerce)** 🛍️ | RFQ & B2B Quoting | [<img src="https://img.shields.io/github/stars/bagisto/b2b-ecommerce?style=social&color=white" alt="Bagisto B2B stars"/>](https://github.com/bagisto/b2b-ecommerce/stargazers) | MIT | Open-source extension for Bagisto enabling request-for-quote (RFQ), quotation negotiation, and company credit ledger. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork this repository.
+2. Edit `README.md` with new SaaS or Open-Source deal desk tools.
+3. Keep descriptions factual, concise, and structured.
+4. Open a Pull Request with a clear summary of changes.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Deal-Desk-Automation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Deal-Desk-Automation&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this curated ecosystem list helpful, please consider supporting the project! ⭐ **Star the repository**, share it with your RevOps & SalesOps network, or sponsor further updates:
+
+- **Sponsor on GitHub**: [https://github.com/sponsors/ishandutta2007](https://github.com/sponsors/ishandutta2007) ☕
+- **Join Community Discussions**: [Discord Community](https://discord.gg/jc4xtF58Ve) 💬
+- **Explore More Lists**: [Awesome Awesome Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) 🚀
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** repository provided for informational and educational purposes.
+- Deal desk automation and CPQ systems process sensitive pricing matrices, contract terms, customer data, and financial transactions. Ensure proper security and regulatory compliance when deploying these solutions.
