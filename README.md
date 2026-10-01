@@ -6,7 +6,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
+![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/ishandutta2007/Awesome-Deal-Desk-Automation?style=flat-square)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -58,9 +58,9 @@ Below is a curated comparison of leading enterprise and SMB Deal Desk SaaS platf
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source deal desk ecosystem provides modular foundations across ERP/CPQ, B2B quotation portals, subscription billing engines, and eSignature automation. Sorted by **GitHub Stars** (descending) 🌟:
+The open-source deal desk ecosystem provides modular foundations across ERP/CPQ, B2B quotation portals, subscription billing engines, and eSignature automation. Sorted by **GitHub_Stars** (descending) 🌟:
 
-| Open-Source Project 🛠️ | Category 🏷️ | Star Count 🌟 | License 📜 | Description 📝 |
+| Open-Source Project 🛠️ | Category 🏷️ | Stars_Count 🌟 | License 📜 | Description 📝 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[n8n](https://github.com/n8n-io/n8n)** ⚡ | Workflow Automation | [<img src="https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white" alt="n8n stars"/>](https://github.com/n8n-io/n8n/stargazers) | Sustainable Use License | Fair-code workflow automation tool to orchestrate custom deal desk approval flows, CRM webhooks, and billing triggers. |
 | **[Odoo](https://github.com/odoo/odoo)** 🏢 | ERP & Native CPQ | [<img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo stars"/>](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 / Commercial | The most comprehensive open-source ERP platform and foundation for deal desk automation, featuring native CPQ, CRM, and Sales modules. |
@@ -112,3 +112,12 @@ If you found this curated ecosystem list helpful, please consider supporting the
 
 - This is a **community-curated** repository provided for informational and educational purposes.
 - Deal desk automation and CPQ systems process sensitive pricing matrices, contract terms, customer data, and financial transactions. Ensure proper security and regulatory compliance when deploying these solutions.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Deal-Desk-Automation&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Deal-Desk-Automation_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Deal-Desk-Automation_growth.svg">
+  </picture>
+</a>
